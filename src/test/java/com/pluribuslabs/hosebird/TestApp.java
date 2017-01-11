@@ -28,7 +28,7 @@ public class TestApp {
 
         Client client = new ClientBuilder()
                 .name("PlabsClientTest-01")
-                .hosts(Constants.ENTERPRISE_STREAM_HOST_V1)
+                .hosts(Constants.SENTIMENT_STREAM_HOST_V1)
                 .endpoint(SYMBOL_ENDPOINT)
                 .authentication(new BasicAuth(USER_NAME, PASSWORD))
                 .connectionTimeout(60_000)
