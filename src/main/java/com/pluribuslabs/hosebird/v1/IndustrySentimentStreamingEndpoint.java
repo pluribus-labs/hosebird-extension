@@ -1,8 +1,8 @@
 package com.pluribuslabs.hosebird.v1;
 
-import com.google.api.client.repackaged.com.google.common.base.Strings;
 import com.google.common.base.Joiner;
 import com.google.common.base.Preconditions;
+import com.google.common.base.Strings;
 import com.google.common.collect.Maps;
 import com.twitter.hbc.core.HttpConstants;
 import com.twitter.hbc.core.endpoint.StreamingEndpoint;
